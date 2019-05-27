@@ -43,3 +43,4 @@ I, Elise am the only contributor to this project.
 This exercise is the last exercise in a series of PHP exercises, with a 2-3 week deadline. I started this exercise on the 24th of May & wish to finish it on the 29th of May at last.
 
 ## Difficulties
+I really don't get this exercise...

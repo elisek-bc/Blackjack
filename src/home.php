@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
+
 <?php
 Class Blackjack {
     private $score = ''
@@ -32,6 +33,7 @@ Class Blackjack {
 $player = new Blackjack ('player');
 $dealer = new Blackjack ('dealer');
 ?>
+
 <form method="POST" action="game.php">
     <input type="radio" name="choice" value="hit">
     <input type="radio" name="choice" value="stand">
