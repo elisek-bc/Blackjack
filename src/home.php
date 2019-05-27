@@ -12,33 +12,46 @@
 
 <?php
 Class Blackjack {
-    private $score = ''
+    /*private $score = '';
 
     public function __construct($turn){
-        $this->score = $turn;
+        $this->score = $turn
+    };
         
     public function hit($amount) {
         $amount .= rand(1,11)
-    }
+    };
 
     public function stand() {
         
-    }
+    };
 
     public function surrender(){
 
-    }
+    };*/
 }
 
-$player = new Blackjack ('player');
-$dealer = new Blackjack ('dealer');
+/*$player = new Blackjack ('player');
+$dealer = new Blackjack ('dealer');*/
 ?>
-
-<form method="POST" action="game.php">
-    <input type="radio" name="choice" value="hit">
-    <input type="radio" name="choice" value="stand">
-    <input type="radio" name="choice" value="surrender">
-    <input type="submit" name="submit" value="submit">
-</form>
+<div class="wrapper d-flex align-items-center">
+<div>
+    <h1> Play Blackjack</h1>
+    <h2> What do you want to do? </h2>
+</div>
+<div class="row m-auto">
+    <div class="col-12 d-flex flex-column">
+        <form method="POST" action="game.php" class="">
+            <input type="radio" name="choice" value="hit" id="hit">
+                <label for= "hit">hit</label>
+            <input type="radio" name="choice" value="stand" id="stand">
+                <label for= "stand">stand</label>
+            <input type="radio" name="choice" value="surrender" id="surrender">
+                <label for= "surrender">surrender</label>
+            <input type="submit" name="submit" value="submit">
+        </form>
+    </div>
+</div>
+</div>
 </body>
 </html>
